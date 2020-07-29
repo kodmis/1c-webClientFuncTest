@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e6aed3c-2e25-4ea8-a9a7-84580314cdd3">
+  <producedTypes>
+    <objectType typeId="4fdcc062-5010-4d42-90d5-4dfbcdcdc9c6" valueTypeId="c32a968e-b724-4b63-8920-1e88bbaa29b4"/>
+    <managerType typeId="f28ed5cf-d2eb-4fb5-8e5a-58fa2437e071" valueTypeId="7c1b2023-ae5c-47b9-82b6-4d7537ab27b7"/>
+  </producedTypes>
+  <name>ТестированиеВВебКлиенте</name>
+  <synonym>
+    <key>en</key>
+    <value>Тестирование в веб клиенте</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ТестированиеВВебКлиенте.Form.Form</defaultForm>
+  <forms uuid="fdfd0b27-5366-4332-a07d-d33ec21f049e">
+    <name>Form</name>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3172cadd-a343-42d1-b8cf-f4b1e6179946">
+    <name>ТестированиеВВебКлиенте</name>
+    <synonym>
+      <key>en</key>
+      <value>Тестирование в веб клиенте</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

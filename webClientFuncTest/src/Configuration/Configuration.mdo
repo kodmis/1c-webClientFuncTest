@@ -29,4 +29,6 @@
     </synonym>
     <languageCode>en</languageCode>
   </languages>
+  <catalogs>Catalog.Товары</catalogs>
+  <dataProcessors>DataProcessor.ТестированиеВВебКлиенте</dataProcessors>
 </mdclass:Configuration>
