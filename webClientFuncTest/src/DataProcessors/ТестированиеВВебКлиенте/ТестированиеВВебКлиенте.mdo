@@ -11,6 +11,11 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ТестированиеВВебКлиенте.Form.Form</defaultForm>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+  </help>
   <forms uuid="fdfd0b27-5366-4332-a07d-d33ec21f049e">
     <name>Form</name>
     <synonym>

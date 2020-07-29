@@ -1,5 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:FormField">
+    <name>АдресПубликацииВебКлиента</name>
+    <id>5</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>АдресПубликацииВебКлиента</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>АдресПубликацииВебКлиентаРасширеннаяПодсказка</name>
+      <id>7</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>АдресПубликацииВебКлиентаКонтекстноеМеню</name>
+      <id>6</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ПортТестКлиента</name>
+    <id>8</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПортТестКлиента</segments>
+    </dataPath>
+    <toolTipRepresentation>Button</toolTipRepresentation>
+    <extendedTooltip>
+      <name>ПортТестКлиентаРасширеннаяПодсказка</name>
+      <id>10</id>
+      <title>
+        <key>en</key>
+        <value>Синтаксис-помощник:
+Номер порта TCP/IP, который нужно использовать для передачи данных. По умолчанию используется порт 1538.
+При соединении с тонким клиентом - порт по умолчанию или порт, который указан через ключ командной строки клиента /TESTCLIENT -TPort.
+При соединении с веб-клиентом - порт на веб-сервере с номером по умолчанию или который указан в конфигурационном файле testcfg.xml.
+При тестировании через веб-клиент информационной базы, которая расположена на сервере &quot;1С:Предприятия&quot;, необходимо подключаться по адресу и порту менеджера кластера сервера (порт по умолчанию 1541).
+&lt;link https://its.1c.ru/db/v8314doc#bookmark:dev:TI000001062>Документация&lt;/>:
+Для взаимодействия менеджера тестирования и клиента тестирования используется прямое TCP/IP соединение через определенный порт (который должен быть «открыт»). Для взаимодействия менеджера тестирования и клиента тестирования, который является веб-клиентом, используется сервер «1С:Предприятия» (для клиент-серверного варианта работы тестируемого приложения) или веб-сервер (для файлового варианта)
+Для запуска клиента тестирования предназначен ключ командной строки запуска клиентского приложения TestClient. Также можно указать номер TCP порта, с помощью которого будут взаимодействовать менеджер и клиент тестирования. Для этого служит параметр TPort ключа TestCleint. Если значение для этого параметра не указано, используется значение 1538
+
+&lt;link https://its.1c.ru/db/v8314doc#bookmark:adm:TI000000419>Файл testcfg.xml&lt;/> предназначен для настройки диапазона портов, используемого при автоматизированном тестировании прикладных решений, работающих в веб-клиенте.
+Файл располагается в каталоге конфигурационных файлов системы «1С:Предприятие», которая выступает в роли клиента тестирования, и его наличие не является обязательным.
+Если файл не найден, то для взаимодействия используются порты из стандартного диапазона (1538-1539).</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <formatted>true</formatted>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ПортТестКлиентаКонтекстноеМеню</name>
+      <id>9</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ИдентификаторТестВебКлиента</name>
+    <id>11</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ИдентификаторТестВебКлиента</segments>
+    </dataPath>
+    <toolTipRepresentation>Button</toolTipRepresentation>
+    <extendedTooltip>
+      <name>ИдентификаторТестВебКлиентаРасширеннаяПодсказка</name>
+      <id>13</id>
+      <title>
+        <key>en</key>
+        <value>Для подключения к клиенту тестирования, являющимся веб-клиентом, кроме указания параметра TestClient, необходимо указать еще один параметр командной строки запуска: TestClientID&lt;Идентификатор>, который содержит уникальный идентификатор тестируемого клиентского приложения. При этом для однозначного указания клиента тестирования, в случае веб-клиента, необходимо три параметра:
+● Адрес веб-сервера, на котором развернуто тестируемое приложение. Адрес информационной базы знать не обязательно!
+● Номер TCP-порта, через который веб-сервер будет передавать данные между менеджером и клиентом тестирования.
+● Идентификатор конкретного экземпляра тестируемого приложения, исполняющегося в веб-клиенте.</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ИдентификаторТестВебКлиентаКонтекстноеМеню</name>
+      <id>12</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
   <items xsi:type="form:Button">
     <name>ЗапуститьТестКлиент</name>
     <id>1</id>
@@ -73,6 +248,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -94,6 +273,60 @@
       <common>true</common>
     </edit>
     <main>true</main>
+  </attributes>
+  <attributes>
+    <name>АдресПубликацииВебКлиента</name>
+    <title>
+      <key>en</key>
+      <value>Адрес публикации веб клиента</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПортТестКлиента</name>
+    <title>
+      <key>en</key>
+      <value>Порт тест клиента</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИдентификаторТестВебКлиента</name>
+    <title>
+      <key>en</key>
+      <value>Идентификатор тест веб клиента</value>
+    </title>
+    <id>4</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>ВыполнитьТест</name>
